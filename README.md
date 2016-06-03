@@ -1,9 +1,10 @@
 # Useful Bashrc alias and functions
 
 ## Getting started
+
 * To open .bashrc file
    ```sh
-    gedit ~/.bashrc
+    source ~/.bashrc
     ```
 * To reload .bashrc file after editing
    ```sh
