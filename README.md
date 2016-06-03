@@ -1,5 +1,7 @@
 # Useful Bashrc alias and functions
+
 ## Getting Started
+* #### Install the following dependencies:
 * #### To open .bashrc file
    ```javascript
     gedit ~/.bashrc
