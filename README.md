@@ -1,6 +1,6 @@
 # Useful Bashrc alias and functions
 
-### Getting Started
+
 * #### To open .bashrc file
    ```javascript
    gedit ~/.bashrc
@@ -10,7 +10,7 @@
     source ~/.bashrc
     ```
 ## A few explanations
-### To extract a sequence with matching name from fasta file 
+
 * #### Example:
    ```javascript
     findseq scaffold1$ file1.fa
@@ -21,7 +21,7 @@
     ```
   * ##### Note: Specifying "scaffolds1$" will print the sequence with the name "scaffold1" (but not "scaffold100") to a new file called "temp.fa"
 
-### To transfer file from local machine to remote machine.
+
 * #### Example:
    ```javascript
     scp1 file1 reads
@@ -31,7 +31,7 @@
    scp file1 username@prd.vital-it.ch:/scratch/cluster/monthly/username/reads
     ```
     * ##### Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
-### To print add module command
+
 * #### Example:
    ```javascript
     addmodule ncbi-blast
@@ -49,11 +49,6 @@
     module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
     ```
 
-* #### Usage
-   ```javascript
-   ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
-   ```
-### To print module command
 * #### Usage
    ```javascript
    ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
