@@ -1,8 +1,10 @@
 # Useful Bashrc alias and functions
 
 ## Getting Started
-* To open .bashrc file
-    gedit ~/.bashrc
+* #### To open .bashrc file
+   ```javascript
+   gedit ~/.bashrc
+   ```
 * To reload .bashrc file after editing
    ```javascript
     source ~/.bashrc
