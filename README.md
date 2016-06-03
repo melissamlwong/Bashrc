@@ -13,7 +13,7 @@
 
 ### A few explanations:
 
-* #### To findseq. Example:
+* #### To extract a sequence from fasta file. For example:
    ```
     findseq scaffold1$ file1.fa
     ```
@@ -25,7 +25,7 @@
 
 
 
-* #### Example:
+* #### To transfer file from local machine to remote machine. For example:
    ```
     scp1 file1 reads
     ```
@@ -36,12 +36,11 @@
     * Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
 
 
-
-* #### Example:
+* #### To echo add module command. For example:
      ```
      addmodule ncbi-blast
      ```
-* Output:
+* #### Output:
      ```
      module add Blast/ncbi-blast/2.2.28+
      module add Blast/ncbi-blast/2.2.29+
