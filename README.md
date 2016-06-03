@@ -10,7 +10,9 @@
     ```
     source ~/.bashrc
     ```
-## A few explanations
+
+### A few explanations
+* ### To findseq
 
 * #### Example:
    ```
