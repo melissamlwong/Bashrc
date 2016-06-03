@@ -2,11 +2,11 @@
 
 ## Getting started
 * To open .bashrc file
-   ```javascript
+   ```sh
     gedit ~/.bashrc
     ```
 * To reload .bashrc file after editing
-   ```javascript
+   ```sh
     source ~/.bashrc
     ```
 ## A few explanations
