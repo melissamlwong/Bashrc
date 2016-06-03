@@ -11,18 +11,18 @@
     source ~/.bashrc
     ```
 
-### A few explanations
-* ### To findseq
+### A few explanations:
 
-* #### Example:
+* #### To findseq. Example:
    ```
     findseq scaffold1$ file1.fa
     ```
-* #### Executed command:
+  *  Executed command:
    ```
     awk 'BEGIN{RS=">";FS="\n"}{if ($1~/scaffold1$/) print ">"$0}' file1.fa > temp.fa
     ```
   * Note: Specifying "scaffolds1$" will print the sequence with the name "scaffold1" (but not "scaffold100") to a new file called "temp.fa"
+
 
 
 * #### Example:
@@ -34,6 +34,8 @@
    scp file1 username@prd.vital-it.ch:/scratch/cluster/monthly/username/reads
     ```
     * Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
+
+
 
 * #### Example:
      ```
@@ -51,3 +53,5 @@
      ```
      module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
      ```
+
+### Questions?
