@@ -1,12 +1,11 @@
 # Useful Bashrc alias and functions
 
 ## Getting Started
-* #### Install the following dependencies:
-* #### To open .bashrc file
+* ### To open .bashrc file
    ```javascript
     gedit ~/.bashrc
     ```
-* #### To reload .bashrc file after editing
+* ### To reload .bashrc file after editing
    ```javascript
     source ~/.bashrc
     ```
