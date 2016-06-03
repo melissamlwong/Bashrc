@@ -1,11 +1,11 @@
 # Useful Bashrc alias and functions
 
 ## Getting started
-* #### To open .bashrc file
+* To open .bashrc file
    ```javascript
     gedit ~/.bashrc
     ```
-* #### To reload .bashrc file after editing
+* To reload .bashrc file after editing
    ```javascript
     source ~/.bashrc
     ```
@@ -19,7 +19,7 @@
    ```javascript
     awk 'BEGIN{RS=">";FS="\n"}{if ($1~/scaffold1$/) print ">"$0}' file1.fa > temp.fa
     ```
-  * ##### Note: Specifying "scaffolds1$" will print the sequence with the name "scaffold1" (but not "scaffold100") to a new file called "temp.fa"
+  * Note: Specifying "scaffolds1$" will print the sequence with the name "scaffold1" (but not "scaffold100") to a new file called "temp.fa"
 
 
 * #### Example:
@@ -30,7 +30,7 @@
    ```javascript
    scp file1 username@prd.vital-it.ch:/scratch/cluster/monthly/username/reads
     ```
-    * ##### Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
+    * Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
 
 * #### Example:
    ```javascript
