@@ -37,8 +37,8 @@
      ```
      addmodule ncbi-blast
      ```
-* #### Output:
-    ```
+* Output:
+     ```
      module add Blast/ncbi-blast/2.2.28+
      module add Blast/ncbi-blast/2.2.29+
      module add Blast/ncbi-blast/2.2.31+
@@ -46,6 +46,6 @@
      module add Blast/ncbi-blast/latest
      ```
 * #### Executed command:
-    ```
+     ```
      module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
      ```
