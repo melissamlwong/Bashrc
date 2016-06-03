@@ -3,11 +3,11 @@
 ## Getting started
 
 * To open .bashrc file
-   ```
+   ```x-sh
     gedit ~/.bashrc
     ```
 * To reload .bashrc file after editing
-   ```sh
+   ```x-sh
     source ~/.bashrc
     ```
 ## A few explanations
