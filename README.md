@@ -3,8 +3,8 @@
 ## Getting started
 
 * To open .bashrc file
-   ```sh
-    source ~/.bashrc
+   ```
+    gedit ~/.bashrc
     ```
 * To reload .bashrc file after editing
    ```sh
