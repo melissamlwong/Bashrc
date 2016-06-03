@@ -9,7 +9,7 @@
     source ~/.bashrc
     ```
 ## A few explanations
-### 1) To extract a sequence with matching name from fasta file 
+### To extract a sequence with matching name from fasta file 
 * #### Example:
    ```javascript
     findseq scaffold1$ file1.fa
@@ -20,7 +20,7 @@
     ```
   * ##### Note: Specifying "scaffolds1$" will print the sequence with the name "scaffold1" (but not "scaffold100") to a new file called "temp.fa"
 
-### 2) To transfer file from local machine to remote machine.
+### To transfer file from local machine to remote machine.
 * #### Example:
    ```javascript
     scp1 file1 reads
@@ -30,7 +30,7 @@
    scp file1 username@prd.vital-it.ch:/scratch/cluster/monthly/username/reads
     ```
     * ##### Note: Please edit the IP address of the remote machine and full path of the directory on .bashrc 
-### 3) To print add module command
+### To print add module command
 * #### Example:
    ```javascript
     addmodule ncbi-blast
@@ -52,20 +52,3 @@
    ```javascript
    ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
    ```
-### 3) To print add module command
-* #### Example:
-   ```javascript
-    addmodule ncbi-blast
-    ```
-* #### Output:
-   ```javascript
-    module add Blast/ncbi-blast/2.2.28+
-    module add Blast/ncbi-blast/2.2.29+
-    module add Blast/ncbi-blast/2.2.31+
-    module add Blast/ncbi-blast/2.3.0+
-    module add Blast/ncbi-blast/latest
-    ```
-* #### Executed command:
-   ```javascript
-    module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
-    ```
