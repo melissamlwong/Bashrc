@@ -29,7 +29,7 @@
    ```
     scp1 file1 reads
     ```
-* #### Executed command:
+  *  Executed command:
    ```
    scp file1 username@prd.vital-it.ch:/scratch/cluster/monthly/username/reads
     ```
@@ -40,7 +40,7 @@
      ```
      addmodule ncbi-blast
      ```
-* #### Output:
+  *  Output:
      ```
      module add Blast/ncbi-blast/2.2.28+
      module add Blast/ncbi-blast/2.2.29+
@@ -48,7 +48,7 @@
      module add Blast/ncbi-blast/2.3.0+
      module add Blast/ncbi-blast/latest
      ```
-* #### Executed command:
+  *  Executed command:
      ```
      module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
      ```
