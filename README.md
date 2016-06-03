@@ -1,6 +1,4 @@
-
 # Useful Bashrc alias and functions
-
 ## Getting Started
 * #### To open .bashrc file
    ```javascript
