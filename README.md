@@ -47,3 +47,8 @@
    ```javascript
     module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
     ```
+
+* #### Usage
+   ```javascript
+   ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
+   ```
