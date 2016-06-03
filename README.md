@@ -53,3 +53,8 @@
    ```javascript
    ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
    ```
+### To print module command
+* #### Usage
+   ```javascript
+   ./auto_raxml_genetree_pipeline.sh [input_1.fa .. input_N.fa | input_list.txt]
+   ```
