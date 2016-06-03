@@ -37,20 +37,19 @@
 
 
 * #### To echo add module command. For example:
-     ```
-     addmodule ncbi-blast
-     ```
+   ```
+    addmodule ncbi-blast
+    ```
   *  Output:
-     ```
-     module add Blast/ncbi-blast/2.2.28+
-     module add Blast/ncbi-blast/2.2.29+
-     module add Blast/ncbi-blast/2.2.31+
-     module add Blast/ncbi-blast/2.3.0+
-     module add Blast/ncbi-blast/latest
-     ```
+   ```
+   module add Blast/ncbi-blast/2.2.28+
+   module add Blast/ncbi-blast/2.2.29+
+   module add Blast/ncbi-blast/2.2.31+
+   module add Blast/ncbi-blast/2.3.0+
+   module add Blast/ncbi-blast/latest
+    ```
   *  Executed command:
-     ```
-     module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
-     ```
+   ```
+   module avail 2>&1 | awk '{if ($0~/ncbi-blast/) print "module add "$0}'
+    ```
 
-### Questions?
